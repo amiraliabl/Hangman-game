@@ -42,15 +42,15 @@ while True:
     category = input('''please select your category from
     sport,film/series,food,fruit, video game : ''')
     guessed_letter = []
-    if category in 'sport':
+    if category == 'sport':
         word = choice(sports).lower()
-    elif category in 'film/series':
+    elif category == 'film/series':
         word = choice(films_series).lower()
-    elif category in 'food':
+    elif category == 'food':
         word = choice(food).lower()
-    elif category in 'fruit':
+    elif category == 'fruit':
         word = choice(fruit).lower()
-    elif category in 'video game':
+    elif category == 'video game':
         word = choice(fruit).lower()
     else:
         print('please enter valid category')
@@ -102,125 +102,3 @@ while True:
     else:
         print('!!!!!!!')
         break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# for char in a:
-#     blank.append('-')
-#
-# for i in range(7):
-#     guess = input('enter : ')
-#     index = 0
-#     for letter in a:
-#         if guess == letter:
-#             blank[index] = guess
-#         index += 1
-#     print(' '.join(blank))
-# else:
-#     print('incorrect guess')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
